@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    ody{
+    width: 100%;
+    background-color: rgb(216, 178, 24);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.header:hover{
+    box-shadow: 50px 50px 54px rgba(68, 9, 231, 0);
+    color: #c42121;
+}
+#navbar{
+    display: flex;
+    ruby-align: right;
+    border: palegreen;
+    border-radius: 25px;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 25px;
+    align-content: baseline;
+    ruby-align: right;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(85, 12, 202, 0.555);
+    transition: 0.3s ease;
+    ruby-align: right;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: blue;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: blue;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+.header h1{
+font-size: 40px;
+flex-wrap: wrap;
+align-items: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:blue;
+padding: 30px, 30px, 20px, 20px;
+padding-bottom: 50px;
+}
+
+</style>
+<body>
+    <section class="header">
+            <h1>INSIDE LIFE Naija</h1>
+    <ul id="navbar">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </section>
+
+    <br>
+        <h1>
+            our Mission
+        </h1>
+        <p>Our mission is to provide the public with accurate, timely, reliable, and accessible information that informs, 
+            educates, and empowers individuals. We are committed to creating meaningful content on news, education, technology,
+             health, business, lifestyle, and other important issues that affect society.</p>
+             <br>
+             <hr>
+             <h1>Our Vission</h1>
+             <p>
+                Our vision is to become a trusted and influential information platform where people can easily access credible knowledge, 
+                discover new ideas, and stay informed about issues that matter to them and their communities.
+             </p>
+             <br>
+             <hr>
+             <h1>Our Goals</h1>
+             <p>1. Provide reliable information by publishing well-researched and factual content.
+2. Educate the public through simple, engaging, and informative articles.
+3. Promote public awareness of important social, economic, technological, health, and community issues.
+4. Make information accessible to people from different backgrounds through clear and easy-to-understand content.
+5. Encourage meaningful discussions by creating a platform where readers can share ideas and perspectives respectfully.
+6. Maintain credibility and transparency by prioritizing responsible content creation and correcting inaccuracies when identified.
+7. Build a strong online community of readers who value knowledge, awareness, and continuous learning.
+</p>
+    
+</body>
+</html>

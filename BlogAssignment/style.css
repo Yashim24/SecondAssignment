@@ -1,0 +1,447 @@
+body{
+    width: 100%;
+    background-color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.header:hover{
+    box-shadow: 50px 50px 54px rgba(68, 9, 231, 0);
+    color: #c42121;
+}
+.navbar{
+    display: flex;
+    align-items: right;
+    list-style: none;
+}
+.navbar ul{
+    display: flex;
+    margin-right: auto;
+    list-style: none;
+    gap: 20px;
+    
+}
+.navbar li a:hover{
+    color: blue;
+}
+.header h1{
+font-size: 40px;
+flex-wrap: wrap;
+align-items: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:blue;
+
+}
+.blogPost1{
+    border: 100px;
+    border-color: rgb(31, 212, 77);
+    border-radius: 20px;
+    background-color: rgb(240, 238, 241);
+}
+.blogPost1 h2{
+    color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+.blogPost1 h3{
+    color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.blogPost1 img{
+     width: 100%;
+     height: 1000px;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+.image1{
+     width: 5%;
+     height: 1px;
+    
+    }
+
+.blogPost1 p{
+    justify-content: center;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-style: inherit;
+}
+.like1 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 30%;
+}
+.like1:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.read1 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 30%;
+    
+}
+.read1:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.learn1 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 35%;
+    
+}
+.learn1:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+
+.blogPost2{
+    border: 100px;
+    border-color: rgb(31, 212, 77);
+    border-radius: 20px;
+    background-color: rgb(240, 238, 241);
+}
+.blogPost2 h2{
+    color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+.blogPost2 h3{
+    color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.blogPost2 img{
+     width: 100%;
+     height: 1000px;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+.blogPost2 p{
+    justify-content: center;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-style: inherit;
+}
+.like2 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 30%;
+}
+.like2:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.read2 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 30%;
+    
+}
+.read2:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.learn2 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 35%;
+    
+}
+.learn2:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+
+.blogPost3{
+    border: 100px;
+    border-color: rgb(31, 212, 77);
+    border-radius: 20px;
+    background-color: rgb(240, 238, 241);
+}
+.blogPost3 h2{
+    color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+.blogPost3 h3{
+    color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.blogPost3 img{
+     width: 100%;
+     height: 900px;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+.blogPost3 p{
+    justify-content: center;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-style: inherit;
+}
+.like3 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 30%;
+}
+.like3:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.read3 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 30%;
+    
+}
+.read3:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.learn3 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 35%;
+    
+}
+.learn3:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+
+.blogPost4{
+    border: 100px;
+    border-color: rgb(31, 212, 77);
+    border-radius: 20px;
+    background-color: rgb(240, 238, 241);
+}
+.blogPost4 h2{
+    color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+.blogPost4 h3{
+    color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.blogPost4 img{
+     width: 100%;
+     height: 1000px;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+.blogPost4 p{
+    justify-content: center;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-style: inherit;
+}
+.like4 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 30%;
+}
+.like4:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.read4 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 30%;
+    
+}
+.read4:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.learn4 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 35%;
+    
+}
+.learn4:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+
+.blogPost5{
+    border: 100px;
+    border-color: rgb(31, 212, 77);
+    border-radius: 20px;
+    background-color: rgb(240, 238, 241);
+}
+.blogPost5 h2{
+    color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+.blogPost5 h3{
+    color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.blogPost5 img{
+     width: 100%;
+     height: 700px;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+.blogPost5 p{
+    justify-content: center;
+    text-align: justify;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-style: inherit;
+}
+.like5 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 30%;
+}
+.like5:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.read5 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 30%;
+    
+}
+.read5:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.learn5 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 17px;
+    color: blue;
+    background-color: white;
+     border-radius: 7px;
+     width: 35%;
+    
+}
+.learn5:hover{
+    background-color: rgb(138, 194, 138);
+    color: white;
+}
+.foot{
+    background-color: rgb(46, 41, 41);
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: 100%;
+    border: 5px;
+    border-color: blue;
+}
+.foot p{
+    font-weight: 800;
+    text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
